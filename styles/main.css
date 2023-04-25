@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-image: url(/images/2655665.png);
+  background-position: center;
+  background-size: cover;
+}
+header h2 {
+  display: flex;
+  position: relative;
+  left: 3rem;
+  align-items: center;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.header-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(58, 58, 245, 0.5);
+  transition: 1.5s;
+}
+
+nav {
+  padding: 1.7rem;
+  color: white;
+  display: flex;
+  justify-content: end;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+li {
+  padding-top: 5px;
+  margin-right: 2.3rem;
+  position: relative;
+  bottom: 0.2rem;
+}
+li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.title {
+  width: 100%;
+  height: 50rem;
+}
+.title div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 21rem;
+}
+.title hr {
+  width: 35rem;
+  margin: 0 auto;
+  opacity: 70%;
+}
+.title p {
+  text-transform: uppercase;
+  margin: 1rem 0 0 0;
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.first-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 70rem;
+  margin: 4rem auto;
+  padding: 1rem 1rem 3rem;
+  gap: 2rem;
+}
+.first-card h3 {
+  font-size: 3.5rem;
+}
+.first-card p {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 300;
+  color: rgb(128, 128, 128);
+}
+.first-card img {
+  max-width: 100%;
+}
+
+.services {
+  color: white;
+  background-color: brown;
+  padding: 3rem 0;
+}
+.services h3 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0 0 2.5rem 0;
+}
+.services hr {
+  width: 100%;
+  max-width: 71.3rem;
+  margin: 0 auto;
+  opacity: 0.8;
+}
+.services img {
+  width: 100%;
+  height: 100%;
+  max-height: 13rem;
+  max-width: 29rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  width: 75rem;
+}
+
+.services-card {
+  padding: 2rem 2rem 0;
+  text-align: center;
+  border-radius: 20px solid black;
+}
+.services-card h4 {
+  margin: 1.5rem 0;
+  font-size: 1.6rem;
+}
+.services-card p {
+  margin: 0 0 1.5rem;
+  font-weight: 300;
+}
+.services-card button {
+  width: 12rem;
+  height: 3rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin: 2rem 0;
+}
+.services-card button:hover {
+  background-color: rgb(214, 214, 214);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.bgColor {
+  background-color: #333;
+  transition: 1.5s;
+  color: rgb(255, 255, 255);
+  z-index: 20000;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.galeria h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin: 3rem 0 0;
+}
+
+.galeria-grid {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 20rem 20rem;
+}
+.galeria-grid img {
+  width: 20rem;
+}/*# sourceMappingURL=main.css.map */
