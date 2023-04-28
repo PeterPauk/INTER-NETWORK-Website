@@ -22,7 +22,7 @@ header h2 {
 .header-div {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: rgba(58, 58, 245, 0.5);
+  background-color: rgba(30, 24, 55, 0.5);
   transition: 1.5s;
 }
 
