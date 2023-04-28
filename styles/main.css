@@ -86,7 +86,7 @@ h1 {
   grid-template-columns: 1fr 1fr;
   width: 70rem;
   margin: 4rem auto;
-  padding: 1rem 1rem 3rem;
+  padding: 1rem 3rem;
   gap: 2rem;
 }
 .first-card h3 {
@@ -105,17 +105,19 @@ h1 {
 
 .services {
   color: white;
-  background-color: brown;
+  background-image: url(/images/test.jpg);
+  background-position: center;
+  background-size: cover;
   padding: 3rem 0;
 }
 .services h3 {
   font-size: 3rem;
   text-align: center;
-  margin: 0 0 2.5rem 0;
+  margin: 0.4rem 0 2rem 0;
 }
 .services hr {
   width: 100%;
-  max-width: 71.3rem;
+  max-width: 71rem;
   margin: 0 auto;
   opacity: 0.8;
 }
@@ -124,6 +126,7 @@ h1 {
   height: 100%;
   max-height: 13rem;
   max-width: 29rem;
+  border: 1px solid white;
 }
 
 .services-grid {
@@ -141,9 +144,10 @@ h1 {
 .services-card h4 {
   margin: 1.5rem 0;
   font-size: 1.6rem;
+  font-weight: 500;
 }
 .services-card p {
-  margin: 0 0 1.5rem;
+  margin: 0 0 3rem;
   font-weight: 300;
 }
 .services-card button {
@@ -175,18 +179,25 @@ button a {
   right: 0;
 }
 
+.galeria {
+  margin: 0 auto;
+}
 .galeria h2 {
   text-align: center;
   font-size: 3.5rem;
-  margin: 3rem 0 0;
+  margin: 3.5rem 0 1.5rem;
 }
 
 .galeria-grid {
   display: grid;
   margin: 0 auto;
+  width: 70rem;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 20rem 20rem;
+  gap: 2rem;
 }
 .galeria-grid img {
-  width: 20rem;
+  width: 100%;
+  height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */
