@@ -52,6 +52,31 @@ li a {
   font-size: 0.9rem;
   font-weight: 700;
 }
+li a:after {
+  content: "";
+  position: absolute;
+  bottom: 2.7rem;
+  height: 6px;
+  width: 100%;
+  opacity: 0;
+  background-color: white;
+  transition: 0.5s;
+  left: 0;
+}
+li a:hover:after {
+  opacity: 100%;
+}
+li .active:after {
+  content: "";
+  position: absolute;
+  bottom: 2.7rem;
+  height: 6px;
+  width: 100%;
+  opacity: 100%;
+  background-color: white;
+  transition: 0.5s;
+  left: 0;
+}
 
 .title {
   width: 100%;
@@ -181,6 +206,7 @@ button a {
 
 .galeria {
   margin: 0 auto;
+  padding: 0 0 5rem;
 }
 .galeria h2 {
   text-align: center;
