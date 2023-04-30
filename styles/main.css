@@ -226,4 +226,53 @@ button a {
   height: 20rem;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.kvality {
+  background-image: url(/images/lovepik-internet-technology-background-image_401956320.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 40rem;
+}
+.kvality h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 4.5rem 0 2rem;
+}
+.kvality h3 {
+  font-size: 1.4rem;
+}
+.kvality hr {
+  width: 100%;
+  max-width: 65rem;
+  margin: 0 auto;
+  opacity: 0.8;
+}
+
+.kvality-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 3rem auto;
+  width: 68rem;
+  position: relative;
+  left: 2rem;
+}
+.kvality-grid div {
+  width: 20rem;
+  float: right;
+}
+.kvality-grid div p {
+  margin: 3rem 0;
+  color: rgb(234, 234, 234);
+  font-weight: 300;
+}
+.kvality-grid div div {
+  display: flex;
+  flex-direction: row;
+}
+.kvality-grid div div i {
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  color: rgb(234, 234, 234);
 }/*# sourceMappingURL=main.css.map */
