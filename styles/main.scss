@@ -1,5 +1,5 @@
 $color_1: white;
-$color_2: rgb(0, 0, 0, 0.7);
+$color_2: rgb(0, 0, 0);
 $color_3: rgb(128, 128, 128);
 $color_4: black;
 $color_5: rgb(255, 255, 255);
@@ -178,6 +178,10 @@ h1 {
     margin: 0 0 3rem;
     font-weight: 300;
   }
+  img{
+    object-fit: cover;
+    
+  }
   button {
     width: 12rem;
     height: 3rem;
@@ -188,6 +192,7 @@ h1 {
       background-color: $background-color_4;
       transition: 0.5s;
       cursor: pointer;
+     
     }
   }
 }
@@ -196,6 +201,7 @@ button {
     text-decoration: none;
     color: $color_4;
     font-size: 1.1rem;
+    cursor: pointer;
   }
 }
 .bgColor {
@@ -206,6 +212,7 @@ button {
   position: fixed;
   left: 0;
   right: 0;
+  
 }
 .galeria {
   margin: 0 auto;
@@ -262,7 +269,8 @@ button {
     float: right;
     p{
       margin: 3rem 0;
-      color: rgb(234, 234, 234, 0.8);
+      color: rgb(234, 234, 234);
+      opacity: 0.8;
       font-weight: 300;
       font-size: 1.1rem;
       
@@ -273,14 +281,13 @@ button {
       i{
         font-size: 2rem;
         margin-right: 1.5rem;
-        color: rgb(234, 234, 234, 0.8);
-      
+        color: rgb(234, 234, 234);
+        opacity: 0.8;
       }
     }
   }
 }
 .novinky{
-  
   div{
     h2{
     text-align: center;
@@ -303,12 +310,22 @@ button {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 75rem;
-  margin: 0 auto
+  margin: 0 auto;
+  gap: 2rem;
 }
 .novinky-card{
   img{
-    object-fit: cover;
-    width: 20rem;
+    
+    width: 100%;
+    object-fit: contain;
+  }
+  h3{
+    margin-top: 0.4rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+  p{
+    text-align: start;
   }
 }
 
