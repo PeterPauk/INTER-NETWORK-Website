@@ -251,7 +251,7 @@ button {
   }
   hr {
     width: 100%;
-    max-width: 65rem;
+    max-width: 71rem;
     margin: 0 auto;
     opacity: 0.8;
   }
@@ -295,29 +295,53 @@ button {
     padding: 4rem 0 2rem;
     }
     p{
-      text-align: center;
-      font-size: 1.2rem;
+      
+      font-size: 16px;
       margin-bottom: 2rem;
     }
     hr{
-      width: 75rem;
+      width: 71rem;
       margin: 0 auto 2rem;
 
     }
+    i{
+      font-size: 15px;
+      position: relative;
+      bottom: 3px;
+      right: 3px;
+    }
+    .date{
+      display: flex;
+      align-self: flex-start;
+      font-size: 16px;
+      position: relative;
+      top: 10px;
+      color: rgb(154, 154, 154);
+      margin-bottom: 1rem;
+    }
+    
   }
+.novinky-p{
+  text-align: center;
+  font-size: 1.2rem;
+}
 }
 .novinky-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  width: 75rem;
+  width: 71rem;
   margin: 0 auto;
-  gap: 2rem;
+  gap: 1rem
+  
 }
+
 .novinky-card{
+  
   img{
-    
-    width: 100%;
-    object-fit: contain;
+    width: 16.75rem;
+    height: 12.25rem;
+
+    object-fit: cover;
   }
   h3{
     margin-top: 0.4rem;
@@ -325,7 +349,11 @@ button {
     font-size: 1.4rem;
   }
   p{
+    display: flex;
+    justify-content: flex-start;
     text-align: start;
+    font-size: 1px;
+    color: rgb(154, 154, 154);
   }
 }
 
