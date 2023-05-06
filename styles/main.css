@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -311,7 +312,8 @@ button a {
   position: relative;
   top: 10px;
   color: rgb(154, 154, 154);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0.4rem;
 }
 .novinky .novinky-p {
   text-align: center;
@@ -343,4 +345,92 @@ button a {
   text-align: start;
   font-size: 1px;
   color: rgb(154, 154, 154);
+}
+.novinky-card a {
+  text-decoration: none;
+  color: black;
+  transition: 0.4;
+}
+.novinky-card a:hover {
+  text-decoration: underline;
+}
+
+.člen {
+  margin-top: 4rem;
+  background-image: url(/images/walll.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 23rem;
+}
+
+.člen-grid {
+  display: grid;
+  grid-template-columns: 40rem 1fr;
+  margin: 0 auto;
+  width: 65rem;
+  color: white;
+  gap: 5rem;
+}
+.člen-grid h2 {
+  font-size: 4rem;
+  margin: 5rem 0 2rem;
+  text-align: center;
+}
+.člen-grid p {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: rgb(192, 192, 192);
+}
+.člen-grid button {
+  cursor: pointer;
+}
+
+.člen-text {
+  width: 35rem;
+}
+
+.člen-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 6rem;
+  gap: 1rem;
+}
+
+.btn-1 {
+  margin-bottom: 3rem;
+  width: 14rem;
+  height: 3.5rem;
+  border: 1px solid rgb(192, 192, 192);
+  background-color: transparent;
+  border-radius: 8px;
+  color: rgb(192, 192, 192);
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: 0.5s;
+}
+
+.btn-1:hover {
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-2 {
+  margin-bottom: 3rem;
+  width: 14rem;
+  height: 3.5rem;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 8px;
+  color: black;
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: 0.5s;
+}
+
+.btn-2:hover {
+  background-color: rgb(214, 214, 214);
 }/*# sourceMappingURL=main.css.map */
