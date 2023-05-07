@@ -110,7 +110,7 @@ h1 {
 .first-card {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 70rem;
+  width: 77rem;
   margin: 4rem auto;
   padding: 1rem 3rem;
   gap: 2rem;
@@ -137,7 +137,7 @@ h1 {
   padding: 3rem 0;
 }
 .services h3 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   text-align: center;
   margin: 0.4rem 0 2rem 0;
 }
@@ -145,14 +145,14 @@ h1 {
   width: 100%;
   max-width: 71rem;
   margin: 0 auto;
-  opacity: 0.8;
+  opacity: 40%;
 }
 .services img {
   width: 100%;
   height: 100%;
   max-height: 13rem;
   max-width: 29rem;
-  border: 1px solid rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.7);
 }
 
 .services-grid {
@@ -216,7 +216,7 @@ button a {
 }
 .galeria h2 {
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 4rem;
   margin: 3.5rem 0 1.5rem;
 }
 
@@ -251,9 +251,9 @@ button a {
 }
 .kvality hr {
   width: 100%;
-  max-width: 71rem;
+  max-width: 68rem;
   margin: 0 auto;
-  opacity: 0.8;
+  opacity: 40%;
 }
 
 .kvality-grid {
@@ -263,6 +263,7 @@ button a {
   width: 68rem;
   position: relative;
   left: 2rem;
+  gap: 3rem;
 }
 .kvality-grid div {
   width: 20rem;
@@ -296,14 +297,14 @@ button a {
   margin-bottom: 2rem;
 }
 .novinky div hr {
-  width: 71rem;
+  width: 65.8rem;
   margin: 0 auto 2rem;
 }
 .novinky div i {
   font-size: 15px;
   position: relative;
   bottom: 3px;
-  right: 3px;
+  margin-right: 10px;
 }
 .novinky div .date {
   display: flex;
@@ -323,14 +324,14 @@ button a {
 .novinky-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  width: 71rem;
+  width: 66rem;
   margin: 0 auto;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .novinky-card img {
-  width: 16.75rem;
-  height: 12.25rem;
+  width: 14.75rem;
+  height: 10.25rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -362,7 +363,7 @@ button a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 23rem;
+  height: 22rem;
 }
 
 .člen-grid {
@@ -433,4 +434,67 @@ button a {
 
 .btn-2:hover {
   background-color: rgb(214, 214, 214);
+}
+
+.refs {
+  background-color: #191919;
+  padding: 4rem 0 3.5rem;
+}
+.refs h2 {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.refs hr {
+  opacity: 30%;
+  width: 66rem;
+  margin: 0 auto;
+}
+
+.refs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 66rem;
+  margin: 0 auto;
+  gap: 3rem;
+  text-align: center;
+}
+.refs-grid div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 3rem 0 1rem;
+  color: white;
+}
+.refs-grid img {
+  width: 5rem;
+  border-radius: 50%;
+  margin: 0 0 1rem;
+}
+.refs-grid p {
+  color: rgb(192, 192, 192);
+  font-weight: 300;
+  margin: 0 0 1rem;
+  line-height: 1.5rem;
+}
+.refs-grid h3 {
+  font-weight: 750;
+  font-size: 1.4rem;
+  margin: 0 0 0.5rem;
+}
+.refs-grid h4 {
+  color: rgb(214, 214, 214);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+footer {
+  background-color: white;
+  padding: 2rem 0 2rem;
+}
+footer p {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-weight: 300;
 }/*# sourceMappingURL=main.css.map */
