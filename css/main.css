@@ -1,4 +1,23 @@
 @charset "UTF-8";
+.header-onas-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(16, 5, 16, 0.815);
+  transition: 1.5s;
+}
+
+.onas {
+  margin: 4rem 0;
+}
+.onas h2 {
+  text-align: center;
+  font-size: 4rem;
+}
+.onas hr {
+  width: 66rem;
+  margin: 0 auto;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,11 +25,12 @@
   font-family: "Roboto", sans-serif;
 }
 
-header {
+.main-header {
   background-image: url(/images/2655665.png);
   background-position: center;
   background-size: cover;
 }
+
 header h2 {
   display: flex;
   position: relative;
@@ -110,7 +130,7 @@ h1 {
 .first-card {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 77rem;
+  width: 71rem;
   margin: 4rem auto;
   padding: 1rem 3rem;
   gap: 2rem;
@@ -223,7 +243,7 @@ button a {
 .galeria-grid {
   display: grid;
   margin: 0 auto;
-  width: 70rem;
+  width: 66rem;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
 }
@@ -497,4 +517,4 @@ footer p {
   color: rgba(0, 0, 0, 0.6);
   text-align: center;
   font-weight: 300;
-}/*# sourceMappingURL=main.css.map */
+}

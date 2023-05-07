@@ -1,0 +1,17 @@
+.header-onas-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(16, 5, 16, 0.815);
+    transition: 1.5s;
+  }
+.onas{
+    margin: 4rem 0;
+    h2{
+        text-align: center;
+        font-size: 4rem;
+    }
+    hr{
+        width: 66rem;
+        margin: 0 auto;
+    }
+}

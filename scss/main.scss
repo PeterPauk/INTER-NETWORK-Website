@@ -1,3 +1,4 @@
+@import "./o_nas";
 $color_1: white;
 $color_2: rgb(0, 0, 0);
 $color_3: rgb(128, 128, 128);
@@ -16,10 +17,13 @@ $background-color_5: #333;
   padding: 0;
   font-family: $font-family_1;
 }
-header {
+.main-header{
   background-image: url(/images/2655665.png);
   background-position: center;
   background-size: cover;
+}
+header {
+  
   h2 {
     display: flex;
     position: relative;
@@ -115,7 +119,7 @@ h1 {
 }.first-card {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 77rem;
+  width: 71rem;
   margin: 4rem auto;
   padding: 1rem 3rem;
   gap: 2rem;
@@ -225,7 +229,7 @@ button {
 .galeria-grid {
   display: grid;
   margin: 0 auto;
-  width: 70rem;
+  width: 66rem;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
   img {
