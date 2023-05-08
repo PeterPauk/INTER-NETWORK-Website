@@ -158,15 +158,43 @@
 }
 
 .main-kontakt {
-  background-image: url(/images/C7n32H3JVRjYyRoT8WWSjg.jpg);
-  background-position: center;
+  background-image: url(/images/globe.jpg);
+  background-position: top;
   background-size: cover;
   text-align: center;
   color: white;
+  padding-bottom: 5rem;
 }
 .main-kontakt h2 {
   font-size: 4rem;
   padding: 4.5rem 0 0;
+}
+.main-kontakt hr {
+  width: 1050px;
+  margin: 0 auto;
+  opacity: 50%;
+  margin-bottom: 1.7rem;
+}
+.main-kontakt a {
+  text-decoration: underline;
+  color: white;
+}
+.main-kontakt span {
+  font-weight: 300;
+}
+.main-kontakt iframe {
+  margin-top: 4rem;
+}
+
+.main-p {
+  margin: 2rem 0;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 * {
