@@ -44,7 +44,7 @@
 .kto-sme {
   background-color: #292037;
   color: white;
-  padding: 0 0 1rem;
+  padding: 0 0 3rem;
 }
 .kto-sme h2 {
   text-align: center;
@@ -97,6 +97,7 @@
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 0.7rem 0;
+  font-weight: 400;
 }
 
 .koc1 {
@@ -121,6 +122,32 @@
   background-image: url(/images/istockphoto-625741228-170667a.jpg);
   background-size: cover;
   background-position: bottom;
+}
+
+.kontakt {
+  text-align: center;
+  background-image: url(/images/color.png);
+  background-position: center;
+  background-size: cover;
+}
+.kontakt h2 {
+  color: white;
+  padding: 4.5rem 0 2.5rem;
+  font-size: 4.5rem;
+}
+.kontakt button {
+  margin-bottom: 5rem;
+  padding: 1rem 0;
+  width: 15rem;
+  border-radius: 8px;
+  background-color: rgb(196, 186, 196);
+  transition: 0.4s;
+}
+.kontakt button:hover {
+  background-color: rgb(173, 164, 173);
+}
+.kontakt button a {
+  display: block;
 }
 
 * {
@@ -317,6 +344,9 @@ h1 {
   background-color: rgb(214, 214, 214);
   transition: 0.5s;
   cursor: pointer;
+}
+.services-card button a {
+  display: block;
 }
 
 button a {
@@ -623,4 +653,7 @@ footer p {
   color: rgba(0, 0, 0, 0.6);
   text-align: center;
   font-weight: 300;
+}
+footer span {
+  text-decoration: underline;
 }
