@@ -7,15 +7,120 @@
 }
 
 .onas {
-  margin: 4rem 0;
+  padding: 4rem 0;
+  background-image: url(/images/bg3.jpg);
 }
 .onas h2 {
   text-align: center;
   font-size: 4rem;
 }
 .onas hr {
-  width: 66rem;
+  width: 71rem;
+  margin: 2rem auto;
+}
+
+.prečo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 71rem;
+  margin: 8rem auto 0;
+  padding: 1rem 3rem 2rem;
+  gap: 2.5rem;
+}
+.prečo h3 {
+  font-size: 3.5rem;
+}
+.prečo p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #000000;
+  line-height: 25px;
+  font-weight: 300;
+}
+.prečo img {
+  width: 100%;
+}
+
+.kto-sme {
+  background-color: #292037;
+  color: white;
+  padding: 0 0 1rem;
+}
+.kto-sme h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 4rem 0 2rem;
+}
+.kto-sme hr {
+  width: 57rem;
   margin: 0 auto;
+  opacity: 40%;
+}
+
+.kto-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 57rem;
+  margin: 2rem auto;
+  gap: 2.5rem;
+}
+.kto-grid img {
+  width: 100%;
+}
+.kto-grid p {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.kto-grid .p-2 {
+  margin: 2rem 0 0;
+}
+
+.kocky {
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.5rem;
+  width: 66rem;
+}
+.kocky div {
+  width: 15.5rem;
+  height: 15.5rem;
+  color: white;
+  position: relative;
+}
+.kocky div p {
+  text-align: center;
+  position: relative;
+  top: 84%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0.7rem 0;
+}
+
+.koc1 {
+  background-image: url(/images/happy-smiling-man-looking-away-confident-young-big-smile-handsome-guy-window-thinking-future-closeup-face-152000693.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.koc2 {
+  background-image: url(/images/herni-pocitac-unsplash-1280x960.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.koc3 {
+  background-image: url(/images/open-book-lightbulb-Depositphotos_78990836_xl-2015copy.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.koc4 {
+  background-image: url(/images/istockphoto-625741228-170667a.jpg);
+  background-size: cover;
+  background-position: bottom;
 }
 
 * {
@@ -139,11 +244,12 @@ h1 {
   font-size: 3.5rem;
 }
 .first-card p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-top: 1rem;
   color: rgb(0, 0, 0);
   font-weight: 300;
   color: rgb(128, 128, 128);
+  line-height: 27px;
 }
 .first-card img {
   max-width: 100%;

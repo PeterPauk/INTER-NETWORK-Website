@@ -1,3 +1,11 @@
+$color_1: white;
+$color_2: rgb(0, 0, 0);
+$color_3: rgb(128, 128, 128);
+$color_4: black;
+$color_5: rgb(255, 255, 255);
+$purple_bg: #292037;
+
+
 .header-onas-div {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -5,13 +13,109 @@
     transition: 1.5s;
   }
 .onas{
-    margin: 4rem 0;
+    padding: 4rem 0;
+    background-image: url(/images/bg3.jpg);
+    
     h2{
         text-align: center;
         font-size: 4rem;
     }
     hr{
-        width: 66rem;
-        margin: 0 auto;
+        width: 71rem;
+        margin: 2rem auto;
     }
+}
+.prečo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 71rem;
+    margin: 8rem auto 0;
+    padding: 1rem 3rem 2rem;
+    gap: 2.5rem;
+    h3 {
+      font-size: 3.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      color: #000000;
+      line-height: 25px;
+      font-weight: 300;
+    }
+    img {
+      width: 100%;
+    }
+}
+.kto-sme{
+    background-color: $purple_bg;
+    color: white;
+    padding: 0 0 1rem;
+    h2{
+        text-align: center;
+        font-size: 3.5rem;
+        padding: 4rem 0 2rem;
+    }
+    hr{
+        width: 57rem;
+        margin: 0 auto;
+        opacity: 40%;
+    }
+}
+.kto-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 57rem;
+    margin: 2rem auto;
+    gap: 2.5rem;
+    img{
+        width: 100%;
+    }
+    p{
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: 300;
+        margin-bottom: 2rem;  
+    }
+    .p-2{
+        margin: 2rem 0 0;
+    }
+}
+.kocky{
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+    width: 66rem;
+    div{
+        width: 15.5rem;
+        height: 15.5rem;
+        color: white;
+        position: relative;
+        p{
+            text-align: center;
+            position: relative;
+            top: 84%;
+            margin: 0 auto;
+            background-color: rgb(0, 0, 0, 0.7);
+            padding: 0.7rem 0;
+            
+        }
+    }
+}
+@mixin kocka($image){
+    background-image: $image;
+    background-size: cover;
+    background-position: bottom;
+}
+.koc1{
+    @include kocka(url(/images/happy-smiling-man-looking-away-confident-young-big-smile-handsome-guy-window-thinking-future-closeup-face-152000693.jpg))
+}
+.koc2{
+    @include kocka(url(/images/herni-pocitac-unsplash-1280x960.jpg))
+}
+.koc3{
+    @include kocka(url(/images/open-book-lightbulb-Depositphotos_78990836_xl-2015copy.jpg))
+}
+.koc4{
+    @include kocka(url(/images/istockphoto-625741228-170667a.jpg))
 }
