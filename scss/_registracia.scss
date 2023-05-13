@@ -1,64 +1,21 @@
-.header-kontakt-div {
+.header-regi-div {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: rgb(0, 0, 0);
+    background-color: #212121;
     transition: 1.5s;
   }
-.main-kontakt{
-    background-image: url(/images/globe.jpg);
-    background-position: top;
+  .regi-form{
+    background-image: url(/images/blue.png);
+    background-position: center;
     background-size: cover;
     text-align: center;
-    color: white;
-    padding-bottom: 5rem;
     h2{
-        
+        color: white;
         font-size: 4rem;
         padding: 4.5rem 0 0;
+        margin-bottom: 7rem;
     }
-    hr{
-        width: 1050px;
-        margin: 0 auto;
-        opacity: 50%;
-        margin-bottom: 1.7rem;
-    }
-    a{
-        text-decoration: underline;
-        color: white;
-    }
-    span{
-        font-weight: 300;
-    }
-    iframe{
-        margin-top: 4rem;
-    }
-    div{
-        p{
-            font-size: 1.5rem;
-            margin-bottom: 1.5rem;
-        }
-    }
-   
-}
-    
-
-.main-p{
-    margin: 2rem 0;
-    font-size: 1.1rem;
-    font-weight: 300;
-}
-
-.newsletter{
-    background-color: #191919;
-    color: white;
-    text-align: center;
-    padding: 6rem 0;
-    h2{
-        font-size: 2.6rem;
-        font-weight: 900;
-        letter-spacing: 1px;
-    }
-    div{
+    form{
         display: flex;
         flex-direction: column;
         width: 31rem;
@@ -66,18 +23,30 @@
         label{
             display: flex;
             justify-content: flex-start;
-            margin: 3rem 0 0.5rem;
+            margin: 0rem 0 0.5rem;
             color: rgb(201, 201, 201);
             font-weight: 500;
         }
         input{
             width: 100%;
-            height: 2.5rem;
+            height: 2.7rem;
+            margin-bottom: 1.5rem;
             padding-left: 1rem;
+            
+        }
+        div{
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            label{
+                margin: 0.2rem 0.3rem 0;
+                font-weight: 300;
+            }
         }
         button{
-            width: 50%;
-            margin-top: 1.4rem;
+            width: 55%;
+            height: 3.8rem;
+            margin-bottom: 2.5rem;
             background-color: transparent;
             border: 2px solid rgb(201, 201, 201);
             padding: 1rem 0;
@@ -99,5 +68,27 @@
         }
         
     }
-    
-}
+    a{
+        color: white;
+        font-weight: 300;
+        font-size: 1.2rem;
+        padding-bottom: 4rem;
+        
+    }
+  }
+  .regi-form input[type="radio"]{
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    width: 1.3rem;
+    height: 1.6rem;
+    margin-bottom: 0.2rem;
+    accent-color: black;
+    padding: 1rem;
+  }
+  .regi-form input[type="radio"]:checked{
+    background-color: black;
+  }
+ #senior{
+    margin-bottom: 1.5rem;
+ }
