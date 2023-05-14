@@ -14,7 +14,7 @@ $purple_bg: #292037;
   }
 .onas{
     padding: 4rem 0;
-    background-image: url(/images/bg3.jpg);
+    background-image: url(../images/bg3.jpg);
     
     h2{
         text-align: center;
@@ -109,20 +109,20 @@ $purple_bg: #292037;
     background-position: bottom;
 }
 .koc1{
-    @include kocka(url(/images/happy-smiling-man-looking-away-confident-young-big-smile-handsome-guy-window-thinking-future-closeup-face-152000693.jpg))
+    @include kocka(url(../images/happy-smiling-man-looking-away-confident-young-big-smile-handsome-guy-window-thinking-future-closeup-face-152000693.jpg))
 }
 .koc2{
-    @include kocka(url(/images/herni-pocitac-unsplash-1280x960.jpg))
+    @include kocka(url(../images/herni-pocitac-unsplash-1280x960.jpg))
 }
 .koc3{
-    @include kocka(url(/images/open-book-lightbulb-Depositphotos_78990836_xl-2015copy.jpg))
+    @include kocka(url(../images/open-book-lightbulb-Depositphotos_78990836_xl-2015copy.jpg))
 }
 .koc4{
-    @include kocka(url(/images/istockphoto-625741228-170667a.jpg))
+    @include kocka(url(../images/istockphoto-625741228-170667a.jpg))
 }
 .kontakt{
     text-align: center;
-    background-image: url(/images/color.png);
+    background-image: url(../images/color.png);
     background-position: center;
     background-size: cover;
     h2{

@@ -9,7 +9,7 @@
       src="https://kit.fontawesome.com/0a4f5afbb3.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="../css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,21 +19,17 @@
       rel="stylesheet"
     />
   </head>
+  
+  <?php
+  $page = 'regi';
+
+  ?>
+
+
   <body>
     <header>
-      <div class="header-regi-div" id="navbar">
-        <h2>INTER-NETWORK</h2>
-        <nav>
-          <ul>
-            <li><a href="/index.html">úvod</a></li>
-            <li><a href="/pages/o_nas.html">O Nás</a></li>
-            <li><a href="/pages/registracia.html">Registrácia</a></li>
-            <li><a href="/pages/kontakt.html">Kontakt</a></li>
-            <li><a href="/pages/zamknuta.html">Zamknutá stranka</a></li>
-          </ul>
-        </nav>
-      </div>
-      <script src="/js/index.js"></script>
+    <?php include '../components/navbar.php' ?>
+      <script src="../js/index.js"></script>
     </header>
 
     <section class="regi-form">

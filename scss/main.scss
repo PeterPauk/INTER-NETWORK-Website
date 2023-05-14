@@ -22,9 +22,10 @@ $background-color_5: #333;
 font-family: 'Roboto', sans-serif;
 }
 .main-header{
-  background-image: url(/images/2655665.png);
+  background-image: url(../images/2655665.png);
   background-position: center;
   background-size: cover;
+  
 }
 header {
   
@@ -144,7 +145,7 @@ h1 {
 }
 .services {
   color: $color_1;
-  background-image: url(/images/test.jpg);
+  background-image: url(../images/test.jpg);
   background-position: center;
   background-size: cover;
   padding: 3rem 0;
@@ -247,7 +248,7 @@ button {
   }
 }
 .kvality{
-  background-image: url(/images/color.png);
+  background-image: url(../images/color.png);
   background-position: center;
   background-size: cover;
   color: white;
@@ -381,7 +382,7 @@ button {
 
 .člen{
   margin-top: 4rem;
-  background-image: url(/images/walll.png);
+  background-image: url(../images/walll.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

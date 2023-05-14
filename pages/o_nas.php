@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>O Nás</title>
     <script src="https://kit.fontawesome.com/0a4f5afbb3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="../css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,22 +14,17 @@
       rel="stylesheet"
     />
   </head>
+
+  <?php
+  $page = 'o_nas';
+
+  ?>
 <body>
     <header>
-        <div class="header-onas-div" id="navbar">
-            
-            <h2>INTER-NETWORK</h2>
-            <nav>
-              <ul>
-                <li><a href="/index.html">úvod</a></li>
-                <li><a href="/pages/o_nas.html">O Nás</a></li>
-                <li><a href="/pages/registracia.html">Registrácia</a></li>
-                <li><a href="/pages/kontakt.html">Kontakt</a></li>
-                <li><a href="/pages/zamknuta.html">Zamknutá stranka</a></li>
-              </ul>
-            </nav>
-          </div>
-          <script src="/js/index.js"></script>
+    <?php 
+    include '../components/navbar.php'; 
+    ?>
+          <script src="../js/index.js"></script>
     </header>
     
 
@@ -37,7 +32,7 @@
       <h2>O Nás</h2>
       <hr>
       <div class="prečo">
-        <img src="/images/vermont_based_support_team-scaled.jpg" alt="employees talking">
+        <img src="../images/vermont_based_support_team-scaled.jpg" alt="employees talking">
         <div>
           <h3>Prečo sme vlastne tu?</h3>
           <p>
@@ -53,10 +48,10 @@
       <div class="kto-grid">
         <div>
           <p>Sme kolektív, ktorý sa spolu podiela na tvorbe služieb, ktorými dokážeme pomocť širšiemu okoliu. </p>
-          <img src="/images/working-in-the-it-industry-1024x576.jpg" alt="people looking at monitor">
+          <img src="../images/working-in-the-it-industry-1024x576.jpg" alt="people looking at monitor">
         </div>
         <div>
-          <img src="/images/tech-equipment.jpg" alt="tech equipment">
+          <img src="../images/tech-equipment.jpg" alt="tech equipment">
           <p class="p-2">Možete rátať s obnovením vašeho zariadenia, ked si od nás vyžiadate technickú alebo odbornú pomoc.</p>
         </div>
       </div>
@@ -79,7 +74,7 @@
 
     <section class="kontakt"> 
       <h2>Chcete nás kontaktovať?</h2>
-      <button><a href="/pages/kontakt.html">Ozvite sa nám!</a></button>
+      <button><a href="../pages/kontakt.html">Ozvite sa nám!</a></button>
     </section>
 
     <footer>

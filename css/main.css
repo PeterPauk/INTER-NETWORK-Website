@@ -8,7 +8,7 @@
 }
 
 .regi-form {
-  background-image: url(/images/blue.png);
+  background-image: url(../images/blue.png);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -104,7 +104,7 @@
 
 .onas {
   padding: 4rem 0;
-  background-image: url(/images/bg3.jpg);
+  background-image: url(../images/bg3.jpg);
 }
 .onas h2 {
   text-align: center;
@@ -197,32 +197,32 @@
 }
 
 .koc1 {
-  background-image: url(/images/happy-smiling-man-looking-away-confident-young-big-smile-handsome-guy-window-thinking-future-closeup-face-152000693.jpg);
+  background-image: url(../images/happy-smiling-man-looking-away-confident-young-big-smile-handsome-guy-window-thinking-future-closeup-face-152000693.jpg);
   background-size: cover;
   background-position: bottom;
 }
 
 .koc2 {
-  background-image: url(/images/herni-pocitac-unsplash-1280x960.jpg);
+  background-image: url(../images/herni-pocitac-unsplash-1280x960.jpg);
   background-size: cover;
   background-position: bottom;
 }
 
 .koc3 {
-  background-image: url(/images/open-book-lightbulb-Depositphotos_78990836_xl-2015copy.jpg);
+  background-image: url(../images/open-book-lightbulb-Depositphotos_78990836_xl-2015copy.jpg);
   background-size: cover;
   background-position: bottom;
 }
 
 .koc4 {
-  background-image: url(/images/istockphoto-625741228-170667a.jpg);
+  background-image: url(../images/istockphoto-625741228-170667a.jpg);
   background-size: cover;
   background-position: bottom;
 }
 
 .kontakt {
   text-align: center;
-  background-image: url(/images/color.png);
+  background-image: url(../images/color.png);
   background-position: center;
   background-size: cover;
 }
@@ -254,7 +254,7 @@
 }
 
 .main-kontakt {
-  background-image: url(/images/globe.jpg);
+  background-image: url(../images/globe.jpg);
   background-position: top;
   background-size: cover;
   text-align: center;
@@ -352,7 +352,7 @@
 }
 
 .main-header {
-  background-image: url(/images/2655665.png);
+  background-image: url(../images/2655665.png);
   background-position: center;
   background-size: cover;
 }
@@ -478,7 +478,7 @@ h1 {
 
 .services {
   color: white;
-  background-image: url(/images/test.jpg);
+  background-image: url(../images/test.jpg);
   background-position: center;
   background-size: cover;
   padding: 3rem 0;
@@ -585,7 +585,7 @@ button a {
 }
 
 .kvality {
-  background-image: url(/images/color.png);
+  background-image: url(../images/color.png);
   background-position: center;
   background-size: cover;
   color: white;
@@ -708,7 +708,7 @@ button a {
 
 .člen {
   margin-top: 4rem;
-  background-image: url(/images/walll.png);
+  background-image: url(../images/walll.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
