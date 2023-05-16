@@ -33,7 +33,7 @@
     </header>
 
     <section class="regi-form">
-      <h2>Staňte sa členon Inter-Network</h2>
+      <h2>Staňte sa členom Inter-Network</h2>
       <form action="">
         <label for="">Meno</label>
         <input type="text" />

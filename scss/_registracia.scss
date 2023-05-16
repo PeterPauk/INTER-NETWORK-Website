@@ -14,6 +14,7 @@
         font-size: 4rem;
         padding: 4.5rem 0 0;
         margin-bottom: 7rem;
+        font-weight: 800;
     }
     form{
         display: flex;
@@ -44,11 +45,11 @@
             }
         }
         button{
-            width: 55%;
+            width: 52%;
             height: 3.8rem;
             margin-bottom: 2.5rem;
             background-color: transparent;
-            border: 2px solid rgb(201, 201, 201);
+            border: 2px solid rgba(201, 201, 201, 0.7);
             padding: 1rem 0;
             border-radius: 4px;
             transition: 0.4s;
@@ -73,7 +74,14 @@
         font-weight: 300;
         font-size: 1.2rem;
         padding-bottom: 4rem;
-        
+        margin: 0 auto;
+        text-decoration: underline;
+        text-underline-position: under;
+        text-decoration-color: rgba(255,255,255,0.4);
+        transition: 0.4s;
+        &:hover{
+            text-decoration-color: rgba(255,255,255,1);
+        }
     }
   }
   .regi-form input[type="radio"]{
@@ -88,7 +96,9 @@
   }
   .regi-form input[type="radio"]:checked{
     background-color: black;
+    
   }
+  
  #senior{
     margin-bottom: 1.5rem;
  }
