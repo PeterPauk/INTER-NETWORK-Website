@@ -102,7 +102,7 @@
   color: white;
 }
 
-.regi-form a {
+.regi-form .regi-link {
   color: white;
   font-weight: 300;
   font-size: 1.2rem;
@@ -116,7 +116,7 @@
   transition: 0.4s;
 }
 
-.regi-form a:hover {
+.regi-form .regi-link:hover {
   -webkit-text-decoration-color: white;
           text-decoration-color: white;
 }

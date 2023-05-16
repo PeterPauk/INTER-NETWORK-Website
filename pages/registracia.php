@@ -1,29 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inter-Network</title>
-    <script
-      src="https://kit.fontawesome.com/0a4f5afbb3.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  
-  <?php
+<?php
   $page = 'regi';
-
+  include '../components/head.php';
   ?>
+
+  
+
 
 
   <body>
@@ -67,15 +48,12 @@
           <a href="#">Odoslať</a>
         </button>
 
-        <a href="zamknuta.html">Už ste členom? Prihláste sa!</a>
+        <a href="zamknuta.html" class="regi-link">Už ste členom? Prihláste sa!</a>
 
         
       </form>
     </section>
 
-    <footer>
-        <p>2022 Združenie Inter-Network| Všetky práva vyhradené.</p>
-        <p>Vytvorené službou <span>Webnode · Cookies</span></p>
-      </footer>
+    <?php include '../components/footer.php'?>
   </body>
 </html>
