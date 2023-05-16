@@ -48,7 +48,7 @@ include './components/head.php'
             neviete čo chcete aj tu sa Vám pokusíme pomôcť naším návrhom.
           </p>
           <hr />
-          <button><a href="/pages/o_nas.html">Zistiť Viac</a></button>
+          <button><a href="./pages/o_nas.php">Zistiť Viac</a></button>
         </div>
         <div class="services-card">
           <img src="./images/juanjo-jaramillo-mZnx9429i94-unsplash-scaled.jpg" alt="ffe" />
@@ -58,7 +58,7 @@ include './components/head.php'
             na kľúč. Pozrite si referencie v tejto oblasti.
           </p>
           <hr />
-          <button><a href="./pages/o_nas.html">Zistiť Viac</a></button>
+          <button><a href="./pages/o_nas.php">Zistiť Viac</a></button>
         </div>
         <div class="services-card">
           <img src="./images/what-is-web-hosting-1.jpg" alt="ffe" />
@@ -68,7 +68,7 @@ include './components/head.php'
             poskytnutie server housingu, prípadne prenájom celého servera.
           </p>
           <hr />
-          <button><a href="./pages/o_nas.html">Zistiť Viac</a></button>
+          <button><a href="./pages/o_nas.php">Zistiť Viac</a></button>
         </div>
       </div>
     </section>
