@@ -23,17 +23,17 @@ include '../components/head.php'
             <button class="zamk-white-btn"><a href="#">Vytvoriť nový účet</a></button>
         </div>
         <div>
-            <h3>Prihlásenie</h3>
+            
             <form action="">
+            <h3>Prihlásenie</h3>
                 <label for="">E-mail</label>
                 <input type="email" placeholder="@" />
 
                 <label for="">Heslo</label>
                 <input type="password" />
                 <button><a href="#">Prihlásiť</a></button>
-                
+                <a href="#" class="form-a">Zabudli ste heslo?</a>
             </form>
-            <a href="">Zabudli ste heslo?</a>
             
         </div>
     </section>

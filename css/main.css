@@ -426,6 +426,9 @@
   flex-direction: column;
   width: 31rem;
 }
+.zamk-grid form h3 {
+  margin-bottom: 3rem;
+}
 .zamk-grid form label {
   display: flex;
   justify-content: flex-start;
@@ -439,7 +442,7 @@
   padding-left: 1rem;
 }
 .zamk-grid form button {
-  width: 42%;
+  width: 45%;
   background-color: black;
   border: 2px solid transparent;
   padding: 1rem 0;
@@ -454,6 +457,18 @@
   color: rgb(255, 255, 255);
   transition: 0.4s;
   font-weight: 600;
+}
+.zamk-grid form .form-a {
+  margin-top: 2.4rem;
+  font-size: 1.1rem;
+  color: black;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: rgba(0, 0, 0, 0.4);
+  transition: 0.4s;
+}
+.zamk-grid form .form-a:hover {
+  text-decoration-color: rgb(0, 0, 0);
 }
 
 hr {
