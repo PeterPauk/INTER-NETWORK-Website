@@ -9,7 +9,7 @@
   <script src="https://kit.fontawesome.com/0a4f5afbb3.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="
   <?php 
-    if($page == 'o_nas' || $page == 'kontakt' || $page == 'regi')
+    if($page == 'o_nas' || $page == 'kontakt' || $page == 'regi' || $page == 'zamk')
     {
       echo '../css/main.css';
     }

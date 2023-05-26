@@ -60,7 +60,7 @@ include '../components/head.php'
 
     <section class="kontakt"> 
       <h2>Chcete nás kontaktovať?</h2>
-      <button><a href="../pages/kontakt.html">Ozvite sa nám!</a></button>
+      <button><a href="../pages/kontakt.php">Ozvite sa nám!</a></button>
     </section>
 
     <?php include '../components/footer.php'?>

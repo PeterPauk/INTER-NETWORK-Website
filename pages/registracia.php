@@ -48,7 +48,7 @@
           <a href="#">Odoslať</a>
         </button>
 
-        <a href="zamknuta.html" class="regi-link">Už ste členom? Prihláste sa!</a>
+        <a href="../pages/zamknuta.php" class="regi-link">Už ste členom? Prihláste sa!</a>
 
         
       </form>
