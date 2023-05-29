@@ -146,25 +146,25 @@ include './components/head.php'
       <div class="novinky-grid">
         <div class="novinky-card">
           <img src="./images/5730267372_2a5c4b52ab_o.jpg" alt="">
-          <h3><i class="fa-solid fa-lock"></i><a href="#">Mikročipy od Bill Gatesa spôsobujú nočné videnie?</a></h3>
+          <h3><i class="fa-solid fa-lock"></i><a href="./pages/zamknuta.php">Mikročipy od Bill Gatesa spôsobujú nočné videnie?</a></h3>
           <p class="date"><em>10.12.2022</em></p>
           <p class="fx">Vedecké výskumy potvrdili, že mikročipy od značky Microsoft naozaj spôsobujú nočné videnie.</p>
         </div>
         <div class="novinky-card">
           <img src="./images/221203202608-elon-musk-file-120322.jpg" alt="">
-          <h3><i class="fa-solid fa-lock"></i><a href="#">Elon Musk si odkúpil Siemens Healthineers?</a></h3>
+          <h3><i class="fa-solid fa-lock"></i><a href="./pages/zamknuta.php">Elon Musk si odkúpil Siemens Healthineers?</a></h3>
           <p class="date"><em>8.12.2022</em></p>
           <p class="fx">Nemecká firma dnešným ránom získala nového majiteľa. Po zbankrotovaní Twitteru sa juhoafrický podnikateľ zameriava...</p>
         </div>
         <div class="novinky-card">
           <img src="./images/maxresdefault.jpg" alt="">
-          <h3><i class="fa-solid fa-lock"></i><a href="#">Najvhodnejší programovací jazyk pre samonabíjaciu strážnu zbraň</a></h3>
+          <h3><i class="fa-solid fa-lock"></i><a href="./pages/zamknuta.php">Najvhodnejší programovací jazyk pre samonabíjaciu strážnu zbraň</a></h3>
           <p class="date"><em>18.11.2022</em></p>
           <p class="fx">Žijete v nebezpečnejších koncoch tohto štátu a potrebujete si dodať pocit bezpečia? Potrebujete len programovacie znalosti, senzor...</p>
         </div>
         <div class="novinky-card">
           <img src="./images/1659973285090.jfif" alt="">
-          <h3><i class="fa-solid fa-lock"></i><a href="#">Nová konkurencia pre C++?</a></h3>
+          <h3><i class="fa-solid fa-lock"></i><a href="./pages/zamknuta.php">Nová konkurencia pre C++?</a></h3>
           <p class="date"><em>12.11.2022</em></p>
           <p class="fx">Programovací jazyk Carbon čoskoro prichádza na trh a mnoho ľudí sa pýta, či bude mať zmysel naďalej používať jazyk C++?</p>
         </div>
@@ -179,8 +179,8 @@ include './components/head.php'
           <p>Poskytnite vaše znalosti osobám, ktorí ich potrebujú a my Vám doručíme to, čo si zaslúžite.</p>
         </div>
         <div class="člen-btns">
-          <button class="btn-1">Prihlásiť</button>
-          <button class="btn-2">Registrovať</button>
+          <a href="./pages/zamknuta.php"><button class="btn-1">Prihlásiť</button></a>
+          <a href="./pages/registracia.php"><button class="btn-2">Registrovať</button></a>
         </div>
       </div>
     </section>

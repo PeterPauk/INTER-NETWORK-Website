@@ -20,7 +20,7 @@ include '../components/head.php'
         <div>
             <h3>Ešte nemáte účet?</h3>
             <p>Niektoré stránky tohto webu sú dostupné len registrovaným používateľom. Vytvorte si účet ešte dnes a získajte prístup do zamknutej časti webu.</p>
-            <button class="zamk-white-btn"><a href="#">Vytvoriť nový účet</a></button>
+            <button class="zamk-white-btn"><a href="../pages/registracia.php">Vytvoriť nový účet</a></button>
         </div>
         <div>
             

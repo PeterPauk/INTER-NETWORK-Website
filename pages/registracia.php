@@ -45,7 +45,7 @@
         <input type="password" />
 
         <button>
-          <a href="#">Odoslať</a>
+          <a href="../pages/zamknuta.php">Odoslať</a>
         </button>
 
         <a href="../pages/zamknuta.php" class="regi-link">Už ste členom? Prihláste sa!</a>

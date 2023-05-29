@@ -30,7 +30,7 @@
       <div>
       <label for="gg">E-mail</label>
       <input type="email" placeholder="@">
-      <button><a href="#">Odoslať</a></button>
+      <button><a href="../pages/zamknuta.php">Odoslať</a></button>
     </div>
     </section>
 
